@@ -7,14 +7,12 @@ public class P02 {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());
         boolean isEven = false;
-        if (n%2==0){
-            isEven=true;
-        }
-        if (isEven){
+        if (n%5==0 || n%7==0){
             System.out.println("Yes");
-        }else {
+        } else {
             System.out.println("No");
         }
+
     }
 }
 
